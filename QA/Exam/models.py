@@ -43,8 +43,8 @@ class Answers(models.Model):
     """
     a_id = models.AutoField(primary_key=True, db_column='a_id')
     option = models.CharField(max_length=1024, null=False, blank=False)
-    is_correct = models.BooleanField(default=False)
-    q_id = models.ForeignKey(Questions, on_delete=models.CASCADE, blank=False, null=False)
+    is_correct = models.BooleanField(default=False, null=True)
+    q_id = models.ForeignKey(Questions, on_delete=models.CASCADE, blank=False, null=False, related_name='answers')
 
     class Meta:
         managed = True

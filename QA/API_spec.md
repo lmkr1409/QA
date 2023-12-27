@@ -1,6 +1,26 @@
+<!-- TOC -->
+
+- [Database design](#database-design)
+    - [courses](#courses)
+    - [questions](#questions)
+    - [answers](#answers)
+    - [exam](#exam)
+    - [exam_questions](#exam_questions)
+- [API Specifications](#api-specifications)
+    - [[GET] fetch all courses](#get-fetch-all-courses)
+    - [[POST] create course](#post-create-course)
+    - [[GET] question details and their answers](#get-question-details-and-their-answers)
+    - [[GET] list of questions](#get-list-of-questions)
+    - [[GET] list of answers for a question](#get-list-of-answers-for-a-question)
+    - [[POST] create question and answer](#post-create-question-and-answer)
+    - [[POST] create answer for a question](#post-create-answer-for-a-question)
+    - [[POST] submit exam](#post-submit-exam)
+
+<!-- /TOC -->
+
 ## Database design
 
-* courses
+### courses
 
 column|datatype|description
 --|--|--|
@@ -8,7 +28,7 @@ c_id | int | primary key column
 course_name | varchar | Name of the Course
 created_on | timestamp | Course creation time
 
-* questions
+### questions
 
 column|datatype|description
 --|--|--|
@@ -19,7 +39,7 @@ positive_score| float | score for correct answer
 negative_score | float | Negative scoring for wrong answer
 c_id | int | Foreign key column referencing courses
 
-* answers
+### answers
 
 column|datatype|description
 --|--|--|
@@ -28,7 +48,7 @@ option | varchar | content of answer
 is_correct | boolean | Is this option is 100% correct
 q_id | int | Foreign key column referencing questions table
 
-* exam
+### exam
 
 column|datatype|description
 --|--|--|
@@ -36,7 +56,7 @@ e_id | int | each exam id
 score | float | score obtained in the exam
 max_score | float | maximum score of the exam
 
-* exam_questions
+### exam_questions
 
 column|datatype|description
 --|--|--|
@@ -47,3 +67,30 @@ selected_option | int | Foreign key column referencing answers table
 
 
 ## API Specifications
+
+### [GET] fetch all courses
+> /course/
+
+### [POST] create course
+> /course/
+
+### [GET] question details and their answers
+
+> /fetch_question_nd_answers?c_id=1
+
+### [GET] list of questions
+
+> /list_of_questions?c_id=1
+
+### [GET] list of answers for a question
+> /answers?q_id=1
+
+### [POST] create question and answer
+> create_question_nd_answer/
+
+### [POST] create answer for a question
+> /answers
+
+### [POST] submit exam
+> submit_exam
+
