@@ -31,7 +31,7 @@ class Questions(models.Model):
         blank=False, null=False)
     positive_score = models.IntegerField(default=1)
     negative_score = models.IntegerField(default=0)
-    c_id = models.ForeignKey(Course, on_delete=models.CASCADE, blank=False, null=False)
+    c_id = models.ForeignKey(Course, on_delete=models.CASCADE, blank=False, null=False, related_name='questions_course_id')
 
     class Meta:
         managed = True
@@ -55,6 +55,7 @@ class Exam(models.Model):
     Table to hold the exam details
     """
     e_id = models.AutoField(primary_key=True, db_column='e_id')
+    c_id = models.ForeignKey(Course, on_delete=models.CASCADE, blank=False, null=False, related_name='exam_course_id')
     score = models.FloatField()
     max_score = models.FloatField()
 

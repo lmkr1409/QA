@@ -12,7 +12,6 @@
     - [[GET] question details and their answers](#get-question-details-and-their-answers)
     - [[GET] list of questions](#get-list-of-questions)
     - [[GET] list of answers for a question](#get-list-of-answers-for-a-question)
-    - [[POST] create question and answer](#post-create-question-and-answer)
     - [[POST] create answer for a question](#post-create-answer-for-a-question)
     - [[POST] submit exam](#post-submit-exam)
 
@@ -85,12 +84,29 @@ selected_option | int | Foreign key column referencing answers table
 ### [GET] list of answers for a question
 > /answers?q_id=1
 
-### [POST] create question and answer
-> create_question_nd_answer/
-
 ### [POST] create answer for a question
 > /answers
 
 ### [POST] submit exam
 > submit_exam
 
+* Request
+```json
+{
+    "course_id":123,
+    "score":20,
+    "max_score":25,
+    "exam_questions":[
+        {
+            "question":"Question 1",
+            "option":"Option 1",
+            "is_correct":"False"
+        },
+        {
+            "question":"Question 2",
+            "option":"Option 2",
+            "is_correct":"False"
+        }
+    ]
+}
+```

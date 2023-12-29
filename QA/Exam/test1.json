@@ -1,0 +1,157 @@
+{
+    "course_id":1,
+    "score":15,
+    "max_score":25,
+    "exam_questions":[
+        {
+            "question_no":1,
+            "question":"What are the key challenges that inhibit collaboration?",
+            "option":"All of the options",
+            "is_correct":"False"
+        },
+        {
+            "question_no":2,
+            "question":"Which of these explain the objectives of Critical Thinking?",
+            "option":"All of the options",
+            "is_correct":"False"
+        },
+        {
+            "question_no":3,
+            "question":"Which strategy would you use if you want to set yourself apart so you can have more opportunities in the future?",
+            "option":"Build your T-shaped skills",
+            "is_correct":"False"
+        },
+        {
+            "question_no":4,
+            "question":"For each item on his to-do list, Raj has ear-marked a set of actions. If you were Raj, how would you prioritize your actions?",
+            "option":"Organize the list by abilities, work on your strengths and preferences, then decide on which ones you would like to delegate",
+            "is_correct":"False"
+        },
+        {
+            "question_no":5,
+            "question":"What are the key tips that we ought to keep in mind for successful business writing?",
+            "option":"All of the options",
+            "is_correct":"False"
+        },
+        {
+            "question_no":6,
+            "question":"What system is used to highlight what you are really good at, what you may have a little experience in, and those areas you not have any experience in?",
+            "option":"PDP",
+            "is_correct":"False"
+        },
+        {
+            "question_no":7,
+            "question":"Sandra works on a presentation and during the review of the Presentation and gets it reviewed by her manager. Her manager says Sandra you need to be more creative. Sandra was sad and speaks to her colleague. Sandra was telling Sam. I am not creative. Creativity is an inbuilt talent. How do you think Sam should have responded to this?",
+            "option":"Creativity is a learned behavior just like anything else. I am sure you can learn it as well",
+            "is_correct":"False"
+        },
+        {
+            "question_no":8,
+            "question":"What's the best way to speak about your service mindset?",
+            "option":"In the way that transforms the organization from top to bottom",
+            "is_correct":"False"
+        },
+        {
+            "question_no":9,
+            "question":"The key is starting t think of yourself as as accountable person",
+            "option":"TRUE",
+            "is_correct":"False"
+        },
+        {
+            "question_no":10,
+            "question":"Lucas has been working in the financial industry for a few years. He is getting ready to develop a career plan. What is the first step he should take?",
+            "option":"research",
+            "is_correct":"False"
+        },
+        {
+            "question_no":11,
+            "question":"You are setting goals for your team members. While doing so, remember that more goals equal/mean/imply more productivity",
+            "option":"FALSE",
+            "is_correct":"False"
+        },
+        {
+            "question_no":12,
+            "question":"Innovator's method is how you turn ideas that have commercial potential and are valuable into innovations.",
+            "option":"TRUE",
+            "is_correct":"False"
+        },
+        {
+            "question_no":13,
+            "question":"Sharon was told by her mentor Sriman to reflect on herself. Reflection or ------ is about being able to clearly see your strengths and weaknesses through others' perspectives as well as your own.",
+            "option":"self awareness",
+            "is_correct":"False"
+        },
+        {
+            "question_no":14,
+            "question":"Which of the following statements is not true regarding the strategy of connecting with a person by starting communication through asking questions?",
+            "option":"Whilst starting a question based conversation with a person, start with a positive comment about the person or his company or something you both are aware of",
+            "is_correct":"False"
+        },
+        {
+            "question_no":15,
+            "question":"What are the key benefits of collaboration?",
+            "option":"All of the options",
+            "is_correct":"False"
+        },
+        {
+            "question_no":16,
+            "question":"For a Brain storming session a manager forms groups comprising people who think alike, share similar worldviews and perspectives, or have shared experiences. This ensures more affirmations and less risk of judgement or disagreement. Will this brain storming session be successful?",
+            "option":"No. Participant selection is one of the most crucial elements of brainstorming strategy. Bring together people from different departments in your organization to leverage different perspectives and life experiences",
+            "is_correct":"False"
+        },
+        {
+            "question_no":17,
+            "question":"Ram, the Account Manager delegated the task of creating incident analysis report to his reportee, Rajesh. While Rajesh is working on the report, he had a few quick questions for which he decided to check with Ram. As Ram, how would you handle quick questions?",
+            "option":"Devote time in your schedule to 1:1 meeting for all the quick questions",
+            "is_correct":"False"
+        },
+        {
+            "question_no":18,
+            "question":"One fine morning, Shena receives a call from her customer asking her to make a minor change to the application API. As this is a minor change, the customer is not inclined to raise a change request for it and he/she also felt that the change could be done directly in the production server. If there is one thing you should always avoid doing when a customer has unreasonable expectations, what would that be?",
+            "option":"arguing with the customer",
+            "is_correct":"False"
+        },
+        {
+            "question_no":19,
+            "question":"On moving to a new role, Lisa finds that she spends her time either shadowing her earlier role (I am not sure what you mean by shadowing her earlier role. Normally we would shadow a person, not a role) or understanding the activities required by her new role. When she brought this to the notice of Jay, her mentor, he advised her to audit her everyday work and apply EOS technique. EOS stands for ?",
+            "option":"Entrepreneurial Operating System",
+            "is_correct":"False"
+        },
+        {
+            "question_no":20,
+            "question":"When at work, first start by prioritizing what matters most to your _____________.",
+            "option":"inner voice",
+            "is_correct":"False"
+        },
+        {
+            "question_no":21,
+            "question":"Ritesh is a Project Manager handling a team of 20 members. The company has not been doing well of late and the higher ups inform Ritesh of the names of few members of his team who would be laid off. Which is the best mode for Ritesh to inform this to the team members?",
+            "option":"Ritesh has a detailed one on one meet with all the team members who have been identified to be laid off. He explains the reasons given by the company to them and thanks them for their contribution to the company. He also suggests areas where they could work on and certifications that might help them to get further opportunities",
+            "is_correct":"False"
+        },
+        {
+            "question_no":22,
+            "question":"As a manager, your special reasonability is to align priorities between your company and",
+            "option":"your employees",
+            "is_correct":"False"
+        },
+        {
+            "question_no":23,
+            "question":"Which is the best advice to help you get from creating the list to actually doing the items on the list?",
+            "option":"Find patterns in your list that will help understand your habits and work towards improving them.",
+            "is_correct":"False"
+        },
+        {
+            "question_no":24,
+            "question":"A team of 5 were given 3 mins to come up with ideas for problem solving. One person came up with 3 ideas another came up with 5 ideas and some others came up with 10 ideas What was the problem. Why wasn't everyone getting same number of ideas",
+            "option":"Both options are false",
+            "is_correct":"False"
+        },
+        {
+            "question_no":25,
+            "question":"At the end of the first brainstorming session, as the team plans for a follow-up session, one team member questions the need for another brainstorming session, asking if one wouldn't be enough. According to you, would one session on brain storming be enough? Why?",
+            "option":"Once the brainstorming begins, a level of improvisation evolves organically in the course of time. Hence, more sessions are needed for an outcome.",
+            "is_correct":"False"
+        }
+    ]
+}
